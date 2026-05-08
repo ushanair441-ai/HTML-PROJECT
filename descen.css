@@ -1,0 +1,12 @@
+h1::first-line {
+    color:red;
+    background-color: green;
+    font: 30px;
+    
+}
+div:hover
+{
+    color:black;
+    background-color: red;
+    font-style: 40px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width intial-scale=1.0">
+        <title>combinator selector</title>
+        <link rel="stylesheet" href="/descen.css">
+        <style>
+            body{
+                border: 10px double black;
+                background-image: url("html.png");
+                border-radius: 50px;
+                overflow: hidden;
+                background-size: 350px;
+                background-color: aqua;
+                background-attachment: scroll; 
+                background-position:center;
+                background-repeat: no-repeat;
+                min-height: 100vh;         /* Forces body to be full screen height */
+                margin: 0;                 /* Removes default browser spacing */
+            }
+            </style>
+    </head>
+    <body>
+        <div class="parent">
+            <h1>HEllO</h1>    <!direct child>
+            <h2>Welcome</h2>  <!direct child>
+
+            <div> <!direct child>
+            <p>hindi</p>       <!grand child>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Accusantium nesciunt ipsa nihil.</p>    <!grand child>
+        </div> 
+        </div> 
+
+        <a href="/about.html" target="_blank">
+            click here
+        </a>
+
+        <form>
+  <label for="msg">Message</label><br>
+  <!-- Use 'placeholder' for hint text that disappears when typing -->
+  <textarea id="msg" name="Message" rows="5" cols="30" placeholder="Type your message here..."></textarea>
+  <br>
+  <input type="text">
+</form>          
+    </body>
+    </html>
+
+
+
+    
